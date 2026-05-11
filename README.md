@@ -1,19 +1,21 @@
-# Is public expenditure on education an economic priority? This analysis examines the effect of public spending on educational outcomes
+# Project
+- Effect of public education spending on pupil educational outcomes.
 
-## Objective
-To determine whether expenditure per pupil improves pupil's average tests scores.
+In this project, I examine the relationship between public education expenditure and pupil educational outcomes. The analysis explores whether increased expenditure per pupil is associated with improvements in pupil's average mathematics and English test scores.
 
-## Data
-- **Dependent variable:** Average pupil's test score (educational outcomes)
-- **Independent variable:** Expenditure per pupil (public spending)
+# Research question
+- Does higher public expenditure per pupil improve pupil's average test score?
 
-## Method:
-- OLS Estimation, conducted in Stata 18.5
+# Methodology
+- I applied statistical exploratory data analysis techniques, producing summary statistics, graphical visualization and analysis, and correlational analysis. I then used OLS techniques to estimate the effect of expenditure per pupil on pupil's average test scores.
+The analysis was conducted in Stata, version 18.5
 
-## Key Finding
-- A one percent increase in expenditure per pupil increases pupil's average test scores by 0.089 points, keeping other factors constant. This is significant at the 5% level. See the report for full results and interpretation of the OLS estimates.
+# Key Finding
+- Public educational expenditure has a significant positive effect on pupil's educational outcomes. Results show that increasing expenditure per pupil by one percent increases pupil's average test scores by 0.089 points, ceteris paribus.
 
-## Repository contents:
-- `dofile` - Stata analysis script titled "educAnalysis_dofile.do"
-- `logfile` - Output log from the analysis titled "educ_finance.log"
-- `report` - results and interpretation titled "updated_report.pdf"
+Check the "updated_report.pdf" for full details on the findings.
+
+# Repository
+- `educAnalysis_dofile.do` # Stata code for data analysis
+- `updated_report.pdf` # Data interpretation report
+- `educ_finance.log`  # Stata logfile
